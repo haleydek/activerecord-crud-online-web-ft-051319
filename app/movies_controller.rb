@@ -48,10 +48,7 @@ def can_find_by_multiple_attributes
   # title == "Title"
   # release_date == 2000
   # director == "Me"
-  Movie.find do |m|
-    m.title = args[:title]
-    m.release_date = args[:release_date]
-    m.director = args[:director]
+  Movie.find(:all, :conditions => )
   end
 end
 
