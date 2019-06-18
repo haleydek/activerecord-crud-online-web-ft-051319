@@ -43,7 +43,7 @@ def can_find_the_first_item_from_the_database_using_id
   Movie.find(1)
 end
 
-def can_find_by_multiple_attributes(args = {:title => 'Title', :release_date => 2000, :director => 'Me'})
+def can_find_by_multiple_attributes
   # Search Values:
   # title == "Title"
   # release_date == 2000
